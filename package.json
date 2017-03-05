@@ -1,0 +1,32 @@
+{
+  "name": "simc-electron",
+  "version": "1.0.0",
+  "description": "Execute an evergreen version of SimulationCraft",
+  "main": "main.js",
+  "scripts": {
+    "dist": "build",
+    "pack": "build --dir",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonrose/simc-electron.git"
+  },
+  "author": "Jason Rose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonrose/simc-electron/issues"
+  },
+  "homepage": "https://github.com/jasonrose/simc-electron#readme",
+  "devDependencies": {
+    "electron": "1.6.1",
+    "electron-builder": "14.5.3"
+  },
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  }
+}
